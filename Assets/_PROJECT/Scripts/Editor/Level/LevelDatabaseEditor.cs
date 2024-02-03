@@ -13,8 +13,8 @@ public class LevelDatabaseEditor : EditorWindow
     private static LevelData levelData => LevelDatabase.Levels[levelDataIndex];
     private static GameObject previewInstance;
 
-    private const string LEVEL_DATA_PATH = "Assets/[Game]/Data/Level/";
-    private const string LEVEL_PREFAB_PATH = "Assets/[Game]/Prefabs/Level/";
+    private const string LEVEL_DATA_PATH = "Assets/_PROJECT/Data/Level/";
+    private const string LEVEL_PREFAB_PATH = "Assets/_PROJECT/Prefabs/Level/";
 
 
     [MenuItem("Picker3D/Level Database Editor")]

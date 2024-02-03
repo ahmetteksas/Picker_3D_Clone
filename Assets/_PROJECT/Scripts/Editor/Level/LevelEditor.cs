@@ -19,8 +19,8 @@ public class LevelEditor : EditorWindow
 
     private const int MIN_DEPOSIT = 1;
     private const int MAX_DEPOSIT = 100;
-    private const string LEVEL_DATA_PATH = "Assets/[Game]/Data/Level/";
-    private const string LEVEL_PREFAB_PATH = "Assets/[Game]/Prefabs/Level/";
+    private const string LEVEL_DATA_PATH = "Assets/_PROJECT/Data/Level/";
+    private const string LEVEL_PREFAB_PATH = "Assets/_PROJECT/Prefabs/Level/";
 
     [MenuItem("Picker3D/Level Creator")]
     private static void OpenWindow()
